@@ -20,7 +20,7 @@ namespace Multiple_screens
 
         private void Start_Click(object sender, EventArgs e)
         {
-            if (usernameinfo.Text == "JaydenRoddick" && Passwordinfo.Text == "JaydenR2003")
+            if (usernameinfo.Text == Form1.usernametext && Passwordinfo.Text == Form1.passwordtext)
             {
 
                 // f is the form that this control is on - ("this" is the current User Control) 

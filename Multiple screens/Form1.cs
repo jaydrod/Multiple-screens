@@ -15,9 +15,11 @@ namespace Multiple_screens
         public Form1()
         {
             InitializeComponent();
+           
         }
 
-        public static string username; 
+        public static string usernametext = "JaydenRoddick";
+        public static string passwordtext = "JaydenR2003"; 
 
         private void Form1_Load(object sender, EventArgs e)
         {
