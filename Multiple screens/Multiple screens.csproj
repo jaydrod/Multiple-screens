@@ -66,6 +66,12 @@
     <Compile Include="SecondScreen.Designer.cs">
       <DependentUpon>SecondScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="WelcomScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WelcomScreen.Designer.cs">
+      <DependentUpon>WelcomScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="SecondScreen.resx">
       <DependentUpon>SecondScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomScreen.resx">
+      <DependentUpon>WelcomScreen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

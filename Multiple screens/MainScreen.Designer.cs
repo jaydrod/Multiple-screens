@@ -33,7 +33,7 @@
             this.usernameinfo = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
             this.Passwordinfo = new System.Windows.Forms.TextBox();
-            this.welcomback = new System.Windows.Forms.Label();
+            this.incorrectLable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Start
@@ -80,20 +80,20 @@
             this.Passwordinfo.Size = new System.Drawing.Size(212, 20);
             this.Passwordinfo.TabIndex = 4;
             // 
-            // welcomback
+            // incorrectLable
             // 
-            this.welcomback.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomback.Location = new System.Drawing.Point(92, 271);
-            this.welcomback.Name = "welcomback";
-            this.welcomback.Size = new System.Drawing.Size(288, 56);
-            this.welcomback.TabIndex = 5;
+            this.incorrectLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.incorrectLable.Location = new System.Drawing.Point(92, 271);
+            this.incorrectLable.Name = "incorrectLable";
+            this.incorrectLable.Size = new System.Drawing.Size(288, 56);
+            this.incorrectLable.TabIndex = 5;
             // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
-            this.Controls.Add(this.welcomback);
+            this.Controls.Add(this.incorrectLable);
             this.Controls.Add(this.Passwordinfo);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.usernameinfo);
@@ -113,6 +113,6 @@
         private System.Windows.Forms.TextBox usernameinfo;
         private System.Windows.Forms.Label Password;
         private System.Windows.Forms.TextBox Passwordinfo;
-        private System.Windows.Forms.Label welcomback;
+        private System.Windows.Forms.Label incorrectLable;
     }
 }

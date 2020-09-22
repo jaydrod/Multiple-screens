@@ -20,25 +20,31 @@ namespace Multiple_screens
 
         private void Start_Click(object sender, EventArgs e)
         {
-            // f is the form that this control is on - ("this" is the current User Control) 
+            if (usernameinfo.Text == "JaydenRoddick" && Passwordinfo.Text == "JaydenR2003")
+            {
 
-            Form f = this.FindForm();
+                // f is the form that this control is on - ("this" is the current User Control) 
 
-            f.Controls.Remove(this);
+                Form f = this.FindForm();
 
-            // Create an instance of the SecondScreen 
+                f.Controls.Remove(this);
 
-            SecondScreen cs = new SecondScreen(); 
+                // Create an instance of the SecondScreen 
+
+                WelcomScreen cs = new WelcomScreen();
 
 
 
-            // Add the User Control to the Form 
+                // Add the User Control to the Form 
 
-            f.Controls.Add(cs);
+                f.Controls.Add(cs);
 
-            //cs.Location = new Point((this.Width - cs.Width) / 2, (this.Height - cs.Height) / 2);
-
-            
+                //cs.Location = new Point((this.Width - cs.Width) / 2, (this.Height - cs.Height) / 2);
+            }
+            else
+            {
+                incorrectLable.Text = "Incorrect please try again"; 
+            }
         }
     }
 }
